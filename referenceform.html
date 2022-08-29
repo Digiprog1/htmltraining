@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML forms</title>
+<style>
+    .q1 {
+        box-sizing: border-box;
+        background-color: white;
+        border: 2px solid rgb(148, 137, 137);
+        border-radius: 25px;
+        width: 1500px;
+        height: 200px;
+        display: block;
+        margin: 50px;
+    }
+    h2{
+        margin:20px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    }
+    .descoptional{
+        opacity: 2;
+        width: max-content;
+    }
+</style>
+    </head>
+
+<body>
+    <div class="q1">
+        <h2>How well do you know the applicant?</h2>
+        <form>
+            <input type="text" name="descoptional" placeholder="Description (Optional)" class="descoptional">
+            <br>
+            <input type="radio" name="notwell" id="notwell">
+            <label for="notwell">Not Well</label>
+            <br>
+            <input type="radio" name="cpa" id="cpa">
+            <label for="cpa">Casual Personal Acquaintance</label>
+            <br>
+            <input type="radio" name="pa" id="pa">
+            <label for="pa">Professional Acquaintance</label>
+        </form>
+    </div>
+ 
+</body>
+
+</html>

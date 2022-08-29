@@ -1,0 +1,45 @@
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    font-size: 40px;
+    background-color: rgb(138, 81, 49);
+}
+
+li {
+    float:left;
+    padding: 10px;
+    margin: 10px;
+    color: maroon;
+}
+
+li a { 
+    display: block;
+    color:aqua;
+    text-align: center;
+}
+a:hover{
+color: wheat;
+}
+h1 {
+    background-color: gray;
+    text-align: center;
+    border: 2px solid brown;
+    margin: 30px;
+}
+
+p{
+    color:rgb(4, 37, 66);
+    font-size: large;
+}
+img{
+    width: 450px;
+    height: 400px;
+
+}
+div {
+    background-color: rgb(177, 128, 128);
+    text-align: center;
+
+}

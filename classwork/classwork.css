@@ -1,0 +1,56 @@
+ul {
+    list-style-type: none;
+    margin: 4;
+    padding: 4;
+    overflow: hidden;
+    background-color: #d6eeee63;
+}
+
+li {
+   float: left;
+}
+
+li a {
+    display: block;
+    color: rgb(48, 41, 41);
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #ca8a8a;
+}
+
+.london {
+text-align:right;
+color: purple;
+text-decoration:overline;
+background-color:rgb(191, 191, 212);
+}
+.paris{
+    text-align: center;
+    color: aqua;
+    text-decoration: dotted;
+    background-color: darkred;
+}
+.tokyo{
+    text-align: justify;
+    color: white;
+    text-decoration: underline;
+    background-color: black;
+}
+
+.blue {
+    color:blue;
+    font-weight:bold;
+}
+.green {
+    color:darkolivegreen;
+    font-weight:bold;
+}
+#tokJapan{
+    text-align: right;
+    border: 2px solid gold;
+    color: blue;
+}
